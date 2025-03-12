@@ -9,7 +9,7 @@ public class Main {
 
         PaymentStrategy creditCardPayment = new CreditCardPayment("1234567890", "علی");
         PaymentStrategy payPalPayment = new PayPalPayment("ali@example.com");
-        PaymentStrategy bitcoinPayment = new BitcoinPayment("1A1zP1eP5QGefi2DMPTfTL5SLmv7DivfNa");
+        PaymentStrategy bitcoinPayment = new BitcoinPayment("6234 9012 7658 0999");
 
 
         regularCustomer.makePayment(creditCardPayment, 100.0);
